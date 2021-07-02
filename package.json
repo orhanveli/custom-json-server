@@ -1,0 +1,24 @@
+{
+  "name": "custom-json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -p 5100 -d 300 -i slug --read-only ./db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orhanveli/custom-json-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orhanveli/custom-json-server/issues"
+  },
+  "homepage": "https://github.com/orhanveli/custom-json-server#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
