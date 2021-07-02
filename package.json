@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server -p 80 -d 300 -i slug --read-only ./db.json",
+    "start": "node index",
+    "dev": "json-server -p 5100 -d 300 -i slug --read-only ./db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
