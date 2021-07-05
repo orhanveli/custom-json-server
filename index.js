@@ -1,20 +1,6 @@
 const path = require('path');
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const lowdb = require('lowdb')
-const FileSync = require('lowdb/adapters/FileSync')
-
-// const low = lowdb();
-
-// // import { Low, JSONFile } from 'lowdb'
-
-// // Use JSON file for storage
-// const file = path.join(__dirname, 'db.json')
-// const adapter = new low.(file)
-// const db = new low.Low(adapter)
-
-// const db = lowdb('db.json')
-
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
